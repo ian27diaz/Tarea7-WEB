@@ -17,7 +17,7 @@
       <button class="btn btn-primary btn-lg mt-2" *ngIf="isInProductos" (click)="sendToCart()" data-toggle="modal"
       data-target="#modelId"> Añadir a la compra </button>
   </div>
-//
+
   <h2 *ngIf="isInProductos">
     <span class="badge badge-secondary">{{contCarrito}}</span>
     artículo<span *ngIf="contCarrito > 1">s</span>

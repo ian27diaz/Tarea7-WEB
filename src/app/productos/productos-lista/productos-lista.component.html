@@ -11,7 +11,7 @@
 </nav>
 <div class="container-fluid">
   <div class="row">
-      <h2 *ngIf="!isInProductos">Total del carrito: ${{totalCarrito}}</h2>
+      <h2 *ngIf="!isInProductos">Total: ${{totalCarrito}}</h2>
   </div>
   <div class="row">
       <button class="btn btn-primary btn-lg mt-2" *ngIf="isInProductos" (click)="sendToCart()" data-toggle="modal"
